@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header";
 import Layout from "../Layout";
 import WrapTitle from "../basics/WrapTitle";
+import Footer from "../Footer";
 
 function AboutText({ id, title, desc, img }) {
   return (
@@ -66,6 +67,7 @@ function About() {
           </div>
         </section>
       </Layout>
+      <Footer />
     </div>
   );
 }

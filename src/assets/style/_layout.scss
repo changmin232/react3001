@@ -8,20 +8,22 @@
 // wrap-title
 .wrap__title {
   padding: 18rem 0 10rem;
-
   h1 {
-    color: #000;
+    color: #fff;
     font-size: 10vmax;
     line-height: 0.85;
     letter-spacing: -0.0275em;
     text-transform: uppercase;
     font-family: "Saol Display Regular";
-
     strong {
       display: block;
       opacity: 1;
     }
   }
+}
+
+.light .wrap__title h1 {
+  color: #000;
 }
 
 /* 모든 페이지의 헤더
